@@ -20,3 +20,5 @@ shuffleNumbers = (array)=> {
     }
     return array;
   };
+
+  shuffleNumbers(numbers);
