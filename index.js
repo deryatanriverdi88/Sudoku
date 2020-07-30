@@ -88,3 +88,4 @@ printSquares = (rowArray, rowNums, squareArray, squareNums, squareAvailableNums,
 };
 
 printRows(squareOneArray, squareOneNums, squareOneAvailableNums, secondRowArray, 0, 3);
+printSquares(secondRowArray, secondRowNums, squareTwoArray, squareTwoNums, squareTwoAvailableNums, 3, 6);
