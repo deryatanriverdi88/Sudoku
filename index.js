@@ -70,3 +70,19 @@ printRows = (squareArray, squareNums, squareAvailableNums, rowArray, index, int)
 		rowArray[i].innerText = squareAvailableNums[i];
 	};
 };
+
+printSquares = (rowArray, rowNums, squareArray, squareNums, squareAvailableNums, index, int) => {
+    keepTrackOfNumbers(rowArray, rowNums, 'row');
+    keepTrackOfNumbers(squareArray, squareNums);
+    rowNums= [...new Set(rowNums)];
+
+    for(let i =0; i < numbers.length ;i++){
+        if(!squareNums.includes(numbers[i]) && !rowNums.includes(numbers[i])){
+        squareAvailableNums.push(numbers[i]);
+    };
+
+    }
+    for(let j = 0; j < 3; j++){
+        squareArray.slice(index, int)[j].innerText = squareAvailableNums[j];
+    };
+};
