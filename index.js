@@ -56,3 +56,5 @@ shuffleNumbers(numbers);
 
 let squareOneNums = [];
 let squareOneAvailableNums = [];
+let squareTwoNums = [];
+let squareTwoAvailableNums = [];
