@@ -56,3 +56,37 @@ shuffleNumbers(numbers);
 
 let squareOneNums = [];
 let squareOneAvailableNums = [];
+let squareTwoNums = [];
+let squareTwoAvailableNums = [];
+let squareThreeNums =[];
+let secondRowNums = [];
+let squareThreeAvailableNums = [];
+let secondRowAvailableNums = [];
+
+printRows = (squareArray, squareNums, squareAvailableNums, rowArray, index, int) => {
+	keepTrackOfNumbers(squareArray, squareNums);
+	keepTrackOfAvailableNumbers(squareAvailableNums,squareNums);
+	for(let i = 0; i < squareAvailableNums.slice(index, int).length; i++){
+		rowArray[i].innerText = squareAvailableNums[i];
+	};
+};
+
+printSquares = (rowArray, rowNums, squareArray, squareNums, squareAvailableNums, index, int) => {
+    keepTrackOfNumbers(rowArray, rowNums, 'row');
+    keepTrackOfNumbers(squareArray, squareNums);
+    rowNums= [...new Set(rowNums)];
+
+    for(let i =0; i < numbers.length ;i++){
+        if(!squareNums.includes(numbers[i]) && !rowNums.includes(numbers[i])){
+        squareAvailableNums.push(numbers[i]);
+    };
+
+    }
+    for(let j = 0; j < 3; j++){
+        squareArray.slice(index, int)[j].innerText = squareAvailableNums[j];
+    };
+};
+
+printRows(squareOneArray, squareOneNums, squareOneAvailableNums, secondRowArray, 0, 3);
+printSquares(secondRowArray, secondRowNums, squareTwoArray, squareTwoNums, squareTwoAvailableNums, 3, 6);
+printSquares(secondRowArray, secondRowNums, squareThreeArray, squareThreeNums, squareThreeAvailableNums, 3, 6);
