@@ -25,3 +25,11 @@ shuffleNumbers = (array)=> {
 
   let firstRowAvailableNums = [];
   let firstRowNums = [];
+
+  keepTrackOfNumbers = (rowArr, numsArr, type) =>{
+	for(let i = 0; i < rowArr.length; i++){
+		if(Number(rowArr[i].innerText) > 0){
+			 numsArr.push(Number(rowArr[i].innerText));
+		 };
+  };
+};
