@@ -22,3 +22,7 @@ td{
 .row-3, .row-6{
 	border-bottom: 5px solid black;
 }
+
+.column-3, .column-6{
+	border-right: 5px solid black;
+}
