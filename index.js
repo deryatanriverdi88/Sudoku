@@ -62,3 +62,11 @@ let squareThreeNums =[];
 let secondRowNums = [];
 let squareThreeAvailableNums = [];
 let secondRowAvailableNums = [];
+
+printRows = (squareArray, squareNums, squareAvailableNums, rowArray, index, int) => {
+	keepTrackOfNumbers(squareArray, squareNums);
+	keepTrackOfAvailableNumbers(squareAvailableNums,squareNums);
+	for(let i = 0; i < squareAvailableNums.slice(index, int).length; i++){
+		rowArray[i].innerText = squareAvailableNums[i];
+	};
+};
