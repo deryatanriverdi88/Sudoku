@@ -60,3 +60,4 @@ let squareTwoNums = [];
 let squareTwoAvailableNums = [];
 let squareThreeNums =[];
 let secondRowNums = [];
+let squareThreeAvailableNums = [];
