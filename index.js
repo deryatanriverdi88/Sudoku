@@ -4,3 +4,4 @@ let squareTwo = document.getElementsByClassName('square-2');
 let squareThree = document.getElementsByClassName('square-3');
 let firstRow = document.getElementsByClassName('row-1');
 let secondRow = document.getElementsByClassName('row-2');
+let squareOneArray = [...squareOne];
