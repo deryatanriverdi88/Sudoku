@@ -41,3 +41,5 @@ keepTrackOfAvailableNumbers = (availableNumsArr, numsArr)=>{
          };
     };
 };
+
+keepTrackOfNumbers(firstRowArray, firstRowNums);
