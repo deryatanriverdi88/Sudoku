@@ -33,3 +33,11 @@ shuffleNumbers = (array)=> {
 		 };
   };
 };
+
+keepTrackOfAvailableNumbers = (availableNumsArr, numsArr)=>{
+    for(let i =0; i < numbers.length; i++){
+            if(!numsArr.includes(numbers[i] )){
+        availableNumsArr.push(numbers[i]);
+         };
+    };
+};
