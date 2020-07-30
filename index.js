@@ -50,3 +50,6 @@ printFirstRow = (rowArray, rowAvailableNums) => {
    rowArray[i].innerText = rowAvailableNums[i];
  };
 };
+
+
+printFirstRow(firstRowArray, firstRowAvailableNums)
