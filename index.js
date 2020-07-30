@@ -7,3 +7,4 @@ let secondRow = document.getElementsByClassName('row-2');
 let squareOneArray = [...squareOne];
 let squareTwoArray = [...squareTwo];
 let squareThreeArray = [...squareThree];
+let firstRowArray = [...firstRow];
