@@ -51,5 +51,5 @@ printFirstRow = (rowArray, rowAvailableNums) => {
  };
 };
 
-
-printFirstRow(firstRowArray, firstRowAvailableNums)
+printFirstRow(firstRowArray, firstRowAvailableNums);
+shuffleNumbers(numbers);
