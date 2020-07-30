@@ -43,3 +43,4 @@ keepTrackOfAvailableNumbers = (availableNumsArr, numsArr)=>{
 };
 
 keepTrackOfNumbers(firstRowArray, firstRowNums);
+keepTrackOfAvailableNumbers(firstRowAvailableNums,firstRowNums);
