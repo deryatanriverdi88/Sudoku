@@ -53,3 +53,6 @@ printFirstRow = (rowArray, rowAvailableNums) => {
 
 printFirstRow(firstRowArray, firstRowAvailableNums);
 shuffleNumbers(numbers);
+
+let squareOneNums = [];
+let squareOneAvailableNums = [];
