@@ -24,3 +24,4 @@ shuffleNumbers = (array)=> {
   shuffleNumbers(numbers);
 
   let firstRowAvailableNums = [];
+  let firstRowNums = [];
