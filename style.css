@@ -11,3 +11,10 @@ table {
 	margin: 40px auto;
 	border: 5px solid black;
 }
+
+td{
+	width: 10%;
+	height: 10vh;
+	border: 1px solid black;
+	text-align: center;
+}
