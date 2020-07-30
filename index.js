@@ -86,3 +86,5 @@ printSquares = (rowArray, rowNums, squareArray, squareNums, squareAvailableNums,
         squareArray.slice(index, int)[j].innerText = squareAvailableNums[j];
     };
 };
+
+printRows(squareOneArray, squareOneNums, squareOneAvailableNums, secondRowArray, 0, 3);
