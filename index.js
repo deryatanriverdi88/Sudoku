@@ -51,5 +51,8 @@ printFirstRow = (rowArray, rowAvailableNums) => {
  };
 };
 
+printFirstRow(firstRowArray, firstRowAvailableNums);
+shuffleNumbers(numbers);
 
-printFirstRow(firstRowArray, firstRowAvailableNums)
+let squareOneNums = [];
+let squareOneAvailableNums = [];
