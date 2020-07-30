@@ -8,3 +8,4 @@ let squareOneArray = [...squareOne];
 let squareTwoArray = [...squareTwo];
 let squareThreeArray = [...squareThree];
 let firstRowArray = [...firstRow];
+let secondRowArray = [...secondRow];
