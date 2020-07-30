@@ -44,3 +44,9 @@ keepTrackOfAvailableNumbers = (availableNumsArr, numsArr)=>{
 
 keepTrackOfNumbers(firstRowArray, firstRowNums);
 keepTrackOfAvailableNumbers(firstRowAvailableNums,firstRowNums);
+
+printFirstRow = (rowArray, rowAvailableNums) => {
+	for(let i = 0; i < rowArray.length; i++){
+   rowArray[i].innerText = rowAvailableNums[i];
+ };
+};
