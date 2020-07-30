@@ -58,3 +58,4 @@ let squareOneNums = [];
 let squareOneAvailableNums = [];
 let squareTwoNums = [];
 let squareTwoAvailableNums = [];
+let squareThreeNums =[];
